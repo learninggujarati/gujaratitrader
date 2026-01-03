@@ -3,193 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gujrati Trader | Premium Market Education</title>
+<title>Gujarati Trader | Free Market Learning</title>
+
+<!-- SEO -->
+<meta name="description" content="Gujarati Trader – Free stock market learning in Gujarati & Hindi. Learn Nifty, BankNifty & risk management.">
+<meta name="author" content="Gujarati Trader">
 
 <!-- GOOGLE FONTS -->
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
 <!-- FONT AWESOME -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    min-height:100vh;
-    background:radial-gradient(circle at top,#1e1b4b,#020617 70%);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-family:'Poppins',sans-serif;
-    color:#fff;
-}
-
-/* ===== CARD ===== */
-.card{
-    width:92%;
-    max-width:440px;
-    padding:42px 28px 36px;
-    border-radius:32px;
-    background:linear-gradient(
-        180deg,
-        rgba(255,255,255,0.12),
-        rgba(255,255,255,0.03)
-    );
-    backdrop-filter:blur(18px);
-    border:1px solid rgba(255,255,255,0.18);
-    box-shadow:0 35px 90px rgba(0,0,0,0.65);
-    text-align:center;
-}
-
-/* ===== LOGO ===== */
-.logo-wrap{
-    width:130px;
-    height:130px;
-    margin:0 auto 20px;
-    border-radius:50%;
-    background:radial-gradient(circle,#fff,#e5e7eb);
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    animation:luxGlow 3s infinite alternate;
-}
-
-.logo-wrap img{
-    width:85%;
-    border-radius:50%;
-}
-
-@keyframes luxGlow{
-    0%{ box-shadow:0 0 18px rgba(212,175,55,0.5); }
-    100%{ box-shadow:0 0 48px rgba(212,175,55,1); }
-}
-
-/* ===== TITLE WITH KING ICONS ===== */
-.title{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:14px;
-    margin-bottom:10px;
-}
-
-.title i{
-    font-size:26px;
-    color:#facc15;
-    animation:kingGlow 2.5s infinite alternate;
-}
-
-@keyframes kingGlow{
-    0%{
-        text-shadow:0 0 8px rgba(250,204,21,0.6);
-        transform:scale(1);
-    }
-    100%{
-        text-shadow:0 0 22px rgba(250,204,21,1);
-        transform:scale(1.15);
-    }
-}
-
-.title h1{
-    font-family:'Playfair Display',serif;
-    font-size:28px;
-    font-weight:700;
-    letter-spacing:1px;
-}
-
-/* ===== SUBTITLE ===== */
-.sub{
-    font-size:14px;
-    color:#d4d4d8;
-    margin-bottom:28px;
-}
-
-/* ===== FEATURES ===== */
-.features{
-    text-align:left;
-    margin-bottom:32px;
-}
-
-.feature{
-    display:flex;
-    align-items:center;
-    gap:14px;
-    font-size:15px;
-    margin-bottom:16px;
-}
-
-.feature i{
-    font-size:18px;
-    color:#facc15;
-    animation:iconPulse 2s infinite;
-}
-
-@keyframes iconPulse{
-    0%{transform:scale(1);}
-    50%{transform:scale(1.15);}
-    100%{transform:scale(1);}
-}
-
-/* ===== TELEGRAM BUTTON ===== */
-.telegram-btn{
-    width:100%;
-    padding:17px;
-    border:none;
-    border-radius:18px;
-    font-size:16px;
-    font-weight:600;
-    background:linear-gradient(135deg,#facc15,#fde047);
-    color:#020617;
-    cursor:pointer;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:12px;
-    box-shadow:0 0 28px rgba(250,204,21,0.75);
-    animation:btnPulse 1.6s infinite;
-}
-
-.telegram-btn i{
-    font-size:22px;
-    animation:fly 1.2s infinite;
-}
-
-@keyframes btnPulse{
-    0%{transform:scale(1);}
-    50%{transform:scale(1.06);}
-    100%{transform:scale(1);}
-}
-
-@keyframes fly{
-    0%{transform:translateX(0);}
-    50%{transform:translateX(6px);}
-    100%{transform:translateX(0);}
-}
-
-/* ===== RATING ===== */
-.stars{
-    margin:22px 0 6px;
-    color:#facc15;
-}
-
-.rating{
-    font-size:13px;
-    color:#d4d4d8;
-    margin-bottom:20px;
-}
-
-/* ===== DISCLAIMER ===== */
-.disclaimer{
-    font-size:11.5px;
-    color:#a1a1aa;
-    line-height:1.6;
-}
-</style>
-<!-- Meta Pixel Code -->
+<!-- META PIXEL (TOP PRIORITY) -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -199,13 +25,114 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '3087088988140561');
-fbq('track', 'PageView');
+fbq('init','3087088988140561');
+fbq('track','PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=3087088988140561&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:#020617;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+}
+
+/* CARD */
+.card{
+    width:92%;
+    max-width:420px;
+    padding:32px 24px;
+    border-radius:20px;
+    background:#0f172a;
+    box-shadow:0 20px 50px rgba(0,0,0,0.6);
+    text-align:center;
+}
+
+/* LOGO */
+.logo-wrap{
+    width:110px;
+    height:110px;
+    margin:0 auto 16px;
+    border-radius:50%;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.logo-wrap img{
+    width:90%;
+    border-radius:50%;
+}
+
+/* TITLE */
+h1{
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:6px;
+}
+
+.sub{
+    font-size:14px;
+    color:#cbd5f5;
+    margin-bottom:22px;
+}
+
+/* FEATURES */
+.features{
+    text-align:left;
+    margin-bottom:22px;
+}
+
+.feature{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:14px;
+    margin-bottom:12px;
+}
+
+.feature i{
+    color:#facc15;
+}
+
+/* TRUST LINE */
+.trust{
+    font-size:13px;
+    color:#a1a1aa;
+    margin-bottom:12px;
+}
+
+/* BUTTON */
+.telegram-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:14px;
+    font-size:15px;
+    font-weight:600;
+    background:#facc15;
+    color:#020617;
+    cursor:pointer;
+}
+
+/* DISCLAIMER */
+.disclaimer{
+    font-size:11px;
+    color:#9ca3af;
+    margin-top:18px;
+    line-height:1.5;
+}
+</style>
 </head>
 
 <body>
@@ -214,51 +141,51 @@ src="https://www.facebook.com/tr?id=3087088988140561&ev=PageView&noscript=1"
 
     <!-- LOGO -->
     <div class="logo-wrap">
-        <img src="https://uploads.onecompiler.io/446vwj75z/448zrd6vz/WhatsApp%20Image%202025-12-29%20at%2018.24.42.jpeg" alt="Zero To Hero">
+        <img loading="lazy"
+        src="https://uploads.onecompiler.io/446vwj75z/448zrd6vz/WhatsApp%20Image%202025-12-29%20at%2018.24.42.jpeg"
+        alt="Gujarati Trader">
     </div>
 
     <!-- TITLE -->
-    <div class="title">
-        <i class="fa-solid fa-crown"></i>
-        <h1>Gujrati Trader</h1>
-        <i class="fa-solid fa-crown"></i>
+    <h1>Gujarati Trader</h1>
+    <div class="sub">
+        Free Stock Market Learning<br>
+        Gujarati + Hindi Language
     </div>
 
-    <div class="sub">20,000+ Learners • Premium Education Community</div>
-
+    <!-- FEATURES -->
     <div class="features">
-        <div class="feature"><i class="fa-solid fa-chart-line"></i>Market Education & Chart Mastery</div>
-        <div class="feature"><i class="fa-solid fa-coins"></i>Nifty • BankNifty • Stock Analysis</div>
-        <div class="feature"><i class="fa-solid fa-shield-halved"></i>Risk Management & Discipline</div>
-        <div class="feature"><i class="fa-solid fa-gem"></i>No Hype • Only Skill & Clarity</div>
+        <div class="feature"><i class="fa-solid fa-chart-line"></i> Nifty & BankNifty Basics</div>
+        <div class="feature"><i class="fa-solid fa-shield-halved"></i> Risk Management & Discipline</div>
+        <div class="feature"><i class="fa-solid fa-book"></i> Education Only – No Tips</div>
     </div>
 
-    <!-- TELEGRAM BUTTON -->
-    <button class="telegram-btn"
-        onclick="window.location.href='https://t.me/+Tqftpeh3WMM2NWY9'">
-        <i class="fa-brands fa-telegram"></i>
-        JOIN TELEGRAM CHANNEL
+    <!-- TRUST -->
+    <div class="trust">
+        No Paid Calls • No Guarantees • Only Learning
+    </div>
+
+    <!-- CTA -->
+    <button class="telegram-btn" onclick="trackSubscribe()">
+        JOIN FREE TELEGRAM LEARNING
     </button>
 
-    <div class="stars">
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-        <i class="fa-solid fa-star"></i>
-    </div>
-
-    <div class="rating">Rated 5.0 by our learning community</div>
-
+    <!-- DISCLAIMER -->
     <div class="disclaimer">
-        Educational purpose only. No tips or guarantees.<br>
-        Market participation involves risk.
+        Educational purpose only.<br>
+        Market investments involve risk.
     </div>
 
 </div>
 
+<script>
+function trackSubscribe(){
+    fbq('track','Subscribe');
+    setTimeout(function(){
+        window.location.href='https://t.me/+Tqftpeh3WMM2NWY9';
+    },600);
+}
+</script>
+
 </body>
 </html>
- 
-
-
